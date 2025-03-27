@@ -3,10 +3,9 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Physics } from '@react-three/cannon';
 
 // Import rendering components
-import PixelRenderer from '../rendering/PixelRenderer';
-import CameraController from '../rendering/CameraController';
-import LightingSetup from '../rendering/LightingSetup';
-
+import PixelRenderer from './rendering/PixelRenderer';
+import CameraController from './rendering/CameraController';
+import LightingSetup from './rendering/LightingSetup';
 // Game components
 import Player from './players/Player';
 import Map from './maps/Map';

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { useThree } from '@react-three/fiber';
-import * as THREE from 'three';
+import THREE from '../utils/ThreeShims';
 
 const PlayerCollision = ({ playerRef }) => {
   const { scene } = useThree();

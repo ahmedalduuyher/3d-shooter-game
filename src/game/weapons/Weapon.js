@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { useBox } from '@react-three/cannon';
-import * as THREE from 'three';
+import THREE from '../utils/ThreeShims';
 
 // Base class for all weapons
 class WeaponBase {

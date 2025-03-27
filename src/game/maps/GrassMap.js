@@ -2,7 +2,8 @@ import React from 'react';
 import { useBox, useCylinder, useSphere } from '@react-three/cannon';
 import { useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three';
-import * as THREE from 'three';
+import THREE from '../utils/ThreeShims';
+
 
 // This is an enhanced version of the grass map with more detailed features
 const GrassMap = () => {

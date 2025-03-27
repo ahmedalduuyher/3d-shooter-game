@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { useThree, useFrame } from '@react-three/fiber';
-import * as THREE from 'three';
+import THREE from '../utils/ThreeShims';
 import { PerspectiveCamera, OrbitControls } from '@react-three/drei';
 
 const CameraController = ({ playerRef }) => {

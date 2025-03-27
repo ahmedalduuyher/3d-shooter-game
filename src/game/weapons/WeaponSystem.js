@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useThree } from '@react-three/fiber';
-import * as THREE from 'three';
+import THREE from '../utils/ThreeShims';
 import Weapon, { AK47, Shotgun, Sniper, SMG } from './Weapon';
 
 const WeaponSystem = ({ player, playerRef }) => {

@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { useBox } from '@react-three/cannon';
-import * as THREE from 'three';
+import THREE from '../utils/ThreeShims';
 
 const Player = React.forwardRef(({ name, team, position, controls }, ref) => {
   // Physics body for the player
